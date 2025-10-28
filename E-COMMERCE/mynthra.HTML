@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-COMMERCE</title>
+</head>
+<body>
+
+  <table border="0" width="100%" cellpadding="10">
+    <!-- NAVIGATION BAR -->
+    <tr valign="middle">
+      <!-- Logo -->
+      <td width="15%" align="center">
+        <a href="https://www.myntra.com/">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/65c5da9f878952603e370d03_Myntra-Logo_1.svg" 
+               alt="Myntra Logo" width="120">
+        </a>
+      </td>
+
+      <!-- Menu Links -->
+      <td width="35%" align="center">
+        <a href="https://www.myntra.com/shop/men">MEN</a> &nbsp; | &nbsp;
+        <a href="https://www.myntra.com/shop/women">WOMEN</a> &nbsp; | &nbsp;
+        <a href="https://www.myntra.com/shop/kids">KIDS</a> &nbsp; | &nbsp;
+        <a href="https://www.myntra.com/shop/home-living">HOME</a> &nbsp; | &nbsp;
+        <a href="https://www.myntra.com/personal-care">BEAUTY</a> &nbsp; | &nbsp;
+        <a href="https://www.myntra.com/shop/fwd-women">GENZ</a>
+      </td>
+
+      <!-- Search Bar -->
+      <td width="30%" align="center">
+  <form onsubmit="myntraSearch(event)">
+    <input type="text" id="searchInput" placeholder="Search for products" 
+           style="width:80%; padding:5px;">
+    <button type="submit" style="padding:5px;">Search</button>
+  </form>
+</td>
+
+<script>
+  function myntraSearch(event) {
+    event.preventDefault(); // Form submit rokta hai
+    let query = document.getElementById("searchInput").value;
+    if (query.trim() !== "") {
+      window.open("https://www.myntra.com/" + query, "_blank");
+    }
+  }
+</script>
+
+      <!-- Icons -->
+      <td width="20%" align="center">
+        <a href="https://www.myntra.com/login">Profile</a> &nbsp; | &nbsp;
+        <a href="https://www.myntra.com/wishlist">Wishlist</a> &nbsp; | &nbsp;
+        <a href="https://www.myntra.com/checkout/cart">Bag</a>
+      </td>
+    </tr>
+
+    <!-- FLAT 500 OFF Banner -->
+    <tr>
+      <td colspan="4">
+        <table border="0" width="100%">
+          <tr>
+            <td align="left">
+              <h1 style="color:rgb(241, 171, 40); font-size:48px; margin:10px 0;">FLAT ₹500 OFF</h1>
+            </td>
+            <td align="right">
+              <a href="https://www.myntra.com/myntra?f=Gender%3Amen%2Cmen%20women%3A%3AQuick%20Filters%3APrice%20Crash" target="_blank">
+                <img src="i2.png"  alt="Banner Image" height="60">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Main Banner -->
+    <tr>
+      <td colspan="4" align="center">
+        <a href="https://www.myntra.com/shop/women">
+          <img src="image.png" alt="Banner Image" width="100%">
+        </a>
+      </td>
+    </tr>
+
+    <!-- Pocket Friendly Prices -->
+    <tr>
+      <td colspan="4" align="center">
+        <h1 style="color:rgb(245, 151, 11); font-size:48px; margin:10px 0;">
+          POCKET FRIENDLY PRICES
+        </h1>
+      </td>
+    </tr>
+
+    <!-- Product Row -->
+    <tr align="center">
+      <td>
+        <a href="https://www.myntra.com/women-bb-and-cc-cream?rf=Price%3A10.0_151.0_10.0%20TO%20151.0" target="_blank">
+          <img src="LACKMAY.png" width="150">
+        </a><br>
+        <b>BB & CC Creams</b><br>
+        <font color="red">UNDER ₹399 → 149</font>
+      </td>
+
+      <td>
+        <a href="https://www.myntra.com/women-bra?rf=Price%3A10.0_401.0_10.0%20TO%20401.0" target="_blank">
+          <img src="BRA.png" width="150">
+        </a><br>
+        <b>Supportive Bras</b><br>
+        <font color="red">UNDER ₹1099 → 399</font>
+      </td>
+
+      <td>
+        <a href="https://www.myntra.com/women-casual-shoes?rf=Price%3A10.0_701.0_10.0%20TO%20701.0" target="_blank">
+          <img src="SHOES.png" width="150">
+        </a><br>
+        <b>Easy Casual Shoes</b><br>
+        <font color="red">UNDER ₹2499 → 699</font>
+      </td>
+
+      <td>
+        <a href="https://www.myntra.com/women-co-ords?rf=Price%3A10.0_701.0_10.0%20TO%20701.0" target="_blank">
+          <img src="1.png" width="150">
+        </a><br>
+        <b>Chic Co-Ords</b><br>
+        <font color="red">UNDER ₹1949 → 699</font>
+      </td>
+    </tr>
+
+    <tr align="center">
+      <td>
+        <a href="https://www.myntra.com/women-co-ords?rf=Price%3A10.0_701.0_10.0%20TO%20701.0" target="_blank">
+          <img src="2.png" width="150">
+        </a><br>
+        <b>Elegant Dresses</b><br>
+        <font color="red">UNDER ₹1549 → 499</font>
+      </td>
+      <td>
+        <a href="https://www.myntra.com/women-flats?rf=Price%3A10.0_551.0_10.0%20TO%20551.0" target="_blank">
+          <img src="SANDLE.png" width="150">
+        </a><br>
+        <b>Striking Flats</b><br>
+        <font color="red">UNDER ₹1549 → 549</font>
+      </td>
+      <td>
+        <a href="https://www.myntra.com/lingerie?rf=Discount%20Range%3A40.0_100.0_40.0%20TO%20100.0" target="_blank">
+          <img src="n.png" width="150">
+        </a><br>
+        <b>Striking Flats</b><br>
+        <font color="red">UNDER ₹1549 → 549</font>
+      </td>
+      <td>
+        <a href="https://www.myntra.com/condoms?rawQuery=condomsS" target="_blank">
+          <img src="c.png" width="150">
+        </a><br>
+        <b>Striking Flats</b><br>
+        <font color="red">UNDER ₹1549 → 549</font>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
